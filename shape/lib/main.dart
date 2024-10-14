@@ -72,12 +72,15 @@ class Triangle extends ShapeAll {
 }
 
 void main() {
+
 Circle circle=Circle(10);
 circle.perimeter();
 circle.area();
+
 Rectangle rectangle=Rectangle(15,18);
 rectangle.perimeter();
 rectangle.area();
+
 Triangle triangle=Triangle(42,30,30);
 triangle.perimeter();
 triangle.area();
